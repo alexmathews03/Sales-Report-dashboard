@@ -1,100 +1,125 @@
-# Sales-Report-dashboard
-📈 Sales Performance Dashboard:
+📊 Sales Performance Dashboard
 
-An interactive Power BI dashboard designed to analyze total sales, sales trends, store-wise performance, and province-level revenue distribution.
+A Power BI dashboard designed to analyze total sales, sales trends, store-wise performance, and province-level revenue distribution.
 
-Purpose:
+⭐ Purpose
 
-The Sales Performance Dashboard helps users quickly understand how sales are performing across months, stores, and regions. It highlights key KPIs, seasonality patterns, and top-performing provinces so that managers can make informed business decisions.
+The Sales Performance Dashboard helps users quickly understand sales performance across months, stores, and regions.
+It highlights:
 
-Tech Stack
+Key KPIs
 
-This dashboard was created using:
+Seasonal trends
 
--Power BI Desktop – Main tool for data modelling and visualization
+Store performance
 
--Power Query – Used to clean, merge, and transform customer, sales, and product data
+Top-performing provinces
 
--DAX (Data Analysis Expressions) – For calculations like YoY%, YTD Sales, and KPI logic
+This enables managers to make faster and more informed business decisions.
 
--Data Modeling – Relationships were built between Sales, CustomerMaster, and other tables
+🛠️ Tech Stack
 
-Data Source:
+Built using:
 
-The dashboard uses sales transaction data along with customer details.
+Power BI Desktop – for data modelling & visualization
 
-Sales Data – Monthly sales amount, quantity sold, and item counts
+Power Query – for cleaning, merging, and transforming data
 
-CustomerMaster.xlsx – Contains customer and province information
+DAX (Data Analysis Expressions) – for YoY%, YTD Sales & KPI calculations
 
-Data includes: store types, regions, monthly sales amounts, quantities, YoY% changes, and YTD performance
+Data Modeling – relationships built between Sales, CustomerMaster, and supporting tables
 
-These datasets were connected and transformed in Power BI to build clean, analysis-ready tables.
+📂 Data Source
 
-Features:
-• Business Problem
+The dashboard uses sales transaction data combined with customer details.
 
-Managers need a simple way to track sales performance, compare store types, and identify which regions contribute the most revenue. Raw data makes it difficult to see trends or understand where improvements are needed.
+Sales Data → Monthly sales amount, quantity sold, item counts
 
-• Goal of the Dashboard
+CustomerMaster.xlsx → Customer + province information
 
-To provide a clear, interactive view of:
+Dataset includes: store types, regions, sales amounts, quantities, YoY% changes, YTD values, and more.
+All data was transformed in Power BI to create clean, analysis-ready tables.
 
-How sales and quantity change over months
+✨ Features
+🔹 Business Problem
 
-Which store types generate the highest sales
+Managers struggle to track sales, compare store types, and see which regions perform best. Raw data makes trend analysis unclear.
 
-Which provinces perform best
+🔹 Goal of the Dashboard
 
-Year-over-year (YoY) and year-to-date (YTD) sales trends
+To provide a clear, interactive visual tool that shows:
 
-Key business KPIs at a glance
+Monthly changes in sales & quantity
 
-• Walkthrough of Key Visuals
-1. Sales KPIs (Top Right)
+Store types contributing the most revenue
+
+Best and worst-performing provinces
+
+YoY growth & YTD performance
+
+Business KPIs at a glance
+
+📈 Walkthrough of Key Visuals
+1️⃣ Sales KPIs (Top Right)
 
 Total Items Sold: 843K
 
 Total Quantity: 9M
-These give a quick snapshot of business performance.
 
-2. Monthly Sales Table (Center)
+Gives a quick overview of overall performance.
 
-Shows:
+2️⃣ Monthly Sales Table (Center)
+
+Displays:
 
 Sum of Sales
 
 YoY% Growth
 
 Sales YTD
-Useful for identifying months with strong or weak performance.
 
-3. Store Type Sales (Top Left)
+Helps identify strong vs. weak months.
 
-A bar chart comparing Supermarket, Gift Store, Computer Store, and Corporate.
-This helps identify which store type brings in the highest revenue.
+3️⃣ Store Type Sales (Top Left)
 
-4. Quantity Trend by Month (Bottom Left)
+A horizontal bar chart comparing:
 
-A line chart showing quantity sold across months to reveal seasonality patterns.
+Supermarket
 
-5. Sales by Province (Bottom Right)
+Gift Store
 
-A descending bar graph ranking provinces by total sales.
-Example: Texas, Pennsylvania, New York appear as top contributors, while states like Arizona and Massachusetts contribute the least.
+Computer Store
 
-6. Province Detail Tooltip
+Corporate
 
-Hovering over provinces (e.g., Illinois) displays exact sales values, adding more detail without cluttering the dashboard.
+Shows which store type generates the highest revenue.
 
-• Business Impact & Insights
+4️⃣ Quantity Trend by Month (Bottom Left)
 
-Better Regional Strategy: Provinces with low sales can be targeted for promotions or new campaigns.
+A line chart displaying monthly quantity sold → reveals seasonal patterns.
 
-Store-Type Optimization: Understanding which store formats drive the most revenue helps with planning future store openings.
+5️⃣ Sales by Province (Bottom Right)
 
-Demand Forecasting: Monthly quantity trends help predict peak demand periods.
+A descending bar graph ranking provinces by sales.
 
-Performance Tracking: Managers can instantly see YoY growth and YTD totals for faster decision-making.
+Examples:
+
+Top contributors: Texas, Pennsylvania, New York
+
+Lower contributors: Arizona, Massachusetts
+
+6️⃣ Province Tooltip Highlight
+
+Hovering over a province (e.g., Illinois) shows exact sales values for deeper insights without clutter.
+
+🚀 Business Impact & Insights
+
+Better Regional Strategy: Low-performing provinces can be targeted with campaigns.
+
+Store-Type Optimization: Helps decide which store formats to expand or support.
+
+Demand Forecasting: Monthly quantity trends highlight peak seasons.
+
+Performance Tracking: YoY & YTD views help monitor business health.
 
 ScreenShot: ![Dashboard Preview](https://github.com/alexmathews03/Sales-Report-dashboard/blob/main/Screenshot%20of%20dashboard%20report.png)
