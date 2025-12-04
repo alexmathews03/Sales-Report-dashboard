@@ -97,4 +97,4 @@ Demand Forecasting: Monthly quantity trends help predict peak demand periods.
 
 Performance Tracking: Managers can instantly see YoY growth and YTD totals for faster decision-making.
 
-ScreenShot: https://github.com/alexmathews03/Sales-Report-dashboard/blob/main/Screenshot%20of%20dashboard%20report.png
+ScreenShot: ![Dashboard Preview](https://github.com/alexmathews03/Sales-Report-dashboard/blob/main/Screenshot%20of%20dashboard%20report.png)
